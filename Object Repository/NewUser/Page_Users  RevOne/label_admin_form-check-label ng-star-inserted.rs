@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_admin_form-check-label ng-star-inserted</name>
+   <tag></tag>
+   <elementGuidId>fd8d66d4-e626-4e14-b359-da17411c28dd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='ngb-nav-1-panel']/div[2]/abp-checkbox/div/label</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;admin&quot;s >> nth=4</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>31be094d-1788-4617-b82c-e21644005d6b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>roles-1</value>
+      <webElementGuid>a85a6929-4b95-45d6-a7b5-c6fcfc12b11a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-check-label ng-star-inserted</value>
+      <webElementGuid>3f38fb9b-7e21-47c3-bf27-625f90608db7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> admin </value>
+      <webElementGuid>7a0e9c98-46e8-49d8-af39-1f547d2553ef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ngb-nav-1-panel&quot;)/div[@class=&quot;form-check mb-2 ng-star-inserted&quot;]/abp-checkbox[@class=&quot;ng-untouched ng-pristine ng-valid ng-star-inserted&quot;]/div[@class=&quot;mb-3&quot;]/label[@class=&quot;form-check-label ng-star-inserted&quot;]</value>
+      <webElementGuid>8fe3a415-71d7-46fc-a884-f3965d342d08</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='ngb-nav-1-panel']/div[2]/abp-checkbox/div/label</value>
+      <webElementGuid>fe3607e4-72ec-4260-bc38-87b50e40d491</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='admin'])[4]/following::label[1]</value>
+      <webElementGuid>cd869e8d-f160-41c9-bd2f-5ec2336337c8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Roles'])[2]/following::label[2]</value>
+      <webElementGuid>5791197d-3507-4649-aa8d-fbb4d8edfd68</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Business analyst'])[1]/preceding::label[1]</value>
+      <webElementGuid>1a123353-be62-46ff-a019-03efa3ad4a85</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Developer'])[1]/preceding::label[2]</value>
+      <webElementGuid>fa33f1a9-2289-4261-826a-7f8be6b03d3a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/abp-checkbox/div/label</value>
+      <webElementGuid>c8e2166a-28f5-4be2-9498-3ec577278706</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = ' admin ' or . = ' admin ')]</value>
+      <webElementGuid>603bc319-d673-49fb-b870-ecd9cd521b37</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
