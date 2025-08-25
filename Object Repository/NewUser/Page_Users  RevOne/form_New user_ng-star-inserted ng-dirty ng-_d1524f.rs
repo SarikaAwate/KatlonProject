@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>form_New user_ng-star-inserted ng-dirty ng-_d1524f</name>
+   <tag></tag>
+   <elementGuidId>79c1f690-d7dc-4b31-a77e-c2132b525fae</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='abp-modal-body']/form</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>form.ng-star-inserted.ng-dirty.ng-touched.ng-valid</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;User InformationRoles admin admin Business analyst Developer Integration support&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>form</value>
+      <webElementGuid>7f8e1e1f-1a58-4873-b259-1bdfbc93e537</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-star-inserted ng-dirty ng-touched ng-valid</value>
+      <webElementGuid>5f28db82-b6b7-430f-9746-ea6da226edfe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>User InformationRoles admin  admin  Business analyst  Developer  Integration support Staff  Patient Advisor  Test </value>
+      <webElementGuid>c71d9439-3504-42b0-8a41-faa9b47b10d5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;abp-modal-body&quot;)/form[@class=&quot;ng-star-inserted ng-dirty ng-touched ng-valid&quot;]</value>
+      <webElementGuid>a0d7e02d-bec3-43f7-a355-6aca3be2630c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='abp-modal-body']/form</value>
+      <webElementGuid>89001a6f-14c4-4e35-ba6a-9dc1860f9383</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='New user'])[2]/following::form[1]</value>
+      <webElementGuid>195aa4eb-7791-4d51-8057-3beb21add87b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form</value>
+      <webElementGuid>6c140df9-29a8-4e86-b5a6-ac0c9249cbb7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//form[(text() = 'User InformationRoles admin  admin  Business analyst  Developer  Integration support Staff  Patient Advisor  Test ' or . = 'User InformationRoles admin  admin  Business analyst  Developer  Integration support Staff  Patient Advisor  Test ')]</value>
+      <webElementGuid>d1b51f49-feee-41c2-be91-44e964e1e983</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
