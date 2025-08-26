@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>lpx-icon_Cancel_lpx-avatar-icon ng-star-inserted</name>
+   <tag></tag>
+   <elementGuidId>f3b1c611-975c-4d56-a5a9-ec56522660e8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='lpx-wrapper']/div[2]/div/div/div[2]/lpx-toolbar-container/lpx-toolbar/lpx-toolbar-items/lpx-toolbar-item[2]/div/div/div/abp-user-profile/lpx-user-profile/div/div/lpx-avatar/div/lpx-icon</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>lpx-icon.lpx-avatar-icon.ng-star-inserted</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Test&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>lpx-icon</value>
+      <webElementGuid>6137e3b3-c7cf-441c-b9b0-31202bb36db6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>lpx-avatar-icon ng-star-inserted</value>
+      <webElementGuid>4db6f39e-8ea0-4034-a4d0-3182eb956ae9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;lpx-wrapper&quot;)/div[@class=&quot;lpx-content-container&quot;]/div[@class=&quot;lpx-topbar-container&quot;]/div[@class=&quot;lpx-topbar&quot;]/div[@class=&quot;lpx-topbar-content ng-star-inserted&quot;]/lpx-toolbar-container[@class=&quot;ng-star-inserted&quot;]/lpx-toolbar[1]/lpx-toolbar-items[@class=&quot;lpx-topbar-content&quot;]/lpx-toolbar-item[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;lpx-menu-item-link ng-star-inserted&quot;]/div[@class=&quot;lpx-menu-item-icon&quot;]/div[@class=&quot;lpx-icon&quot;]/abp-user-profile[@class=&quot;ng-star-inserted&quot;]/lpx-user-profile[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ng-star-inserted dropdown&quot;]/div[@class=&quot;dropdown-toggle lpx-user-profile&quot;]/lpx-avatar[1]/div[@class=&quot;lpx-avatar ng-star-inserted&quot;]/lpx-icon[@class=&quot;lpx-avatar-icon ng-star-inserted&quot;]</value>
+      <webElementGuid>a788a507-3f5b-4640-8231-4552b5562f73</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='lpx-wrapper']/div[2]/div/div/div[2]/lpx-toolbar-container/lpx-toolbar/lpx-toolbar-items/lpx-toolbar-item[2]/div/div/div/abp-user-profile/lpx-user-profile/div/div/lpx-avatar/div/lpx-icon</value>
+      <webElementGuid>933fa61d-bff7-4011-a708-d94e8d2c2427</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::lpx-icon[1]</value>
+      <webElementGuid>af0d3553-5388-4f58-a1bd-af6eaa37b10a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Apply'])[1]/following::lpx-icon[1]</value>
+      <webElementGuid>1c49133e-3a99-4711-9e64-2c2a4f7dc2a2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Test'])[1]/preceding::lpx-icon[1]</value>
+      <webElementGuid>6ebc39ba-0a0c-4fa2-84e0-2111f6138394</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='My account'])[1]/preceding::lpx-icon[1]</value>
+      <webElementGuid>18ca978a-ffa6-4f2b-b126-ea522a0013fb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//lpx-avatar/div/lpx-icon</value>
+      <webElementGuid>eca60054-8dca-4530-bfee-bb2b6d440034</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

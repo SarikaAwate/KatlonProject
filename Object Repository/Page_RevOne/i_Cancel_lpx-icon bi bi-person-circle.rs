@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Cancel_lpx-icon bi bi-person-circle</name>
+   <tag></tag>
+   <elementGuidId>79118b21-4713-48f2-8339-cc79520f3bfc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='lpx-wrapper']/div[2]/div/div/div[2]/lpx-toolbar-container/lpx-toolbar/lpx-toolbar-items/lpx-toolbar-item[2]/div/div/div/abp-user-profile/lpx-user-profile/div/div/lpx-avatar/div/lpx-icon/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.lpx-icon.bi.bi-person-circle</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Test&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>f2611038-5831-4a2b-8dbc-0780612f9735</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>6d1e8c46-5277-41e0-ac88-36b1f6292bcb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>lpx-icon bi bi-person-circle</value>
+      <webElementGuid>d2f6862f-a500-4c22-9711-314a2d82c762</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;lpx-wrapper&quot;)/div[@class=&quot;lpx-content-container&quot;]/div[@class=&quot;lpx-topbar-container&quot;]/div[@class=&quot;lpx-topbar&quot;]/div[@class=&quot;lpx-topbar-content ng-star-inserted&quot;]/lpx-toolbar-container[@class=&quot;ng-star-inserted&quot;]/lpx-toolbar[1]/lpx-toolbar-items[@class=&quot;lpx-topbar-content&quot;]/lpx-toolbar-item[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;lpx-menu-item-link ng-star-inserted&quot;]/div[@class=&quot;lpx-menu-item-icon&quot;]/div[@class=&quot;lpx-icon&quot;]/abp-user-profile[@class=&quot;ng-star-inserted&quot;]/lpx-user-profile[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ng-star-inserted show dropdown&quot;]/div[@class=&quot;dropdown-toggle lpx-user-profile show&quot;]/lpx-avatar[1]/div[@class=&quot;lpx-avatar ng-star-inserted&quot;]/lpx-icon[@class=&quot;lpx-avatar-icon ng-star-inserted&quot;]/i[@class=&quot;lpx-icon bi bi-person-circle&quot;]</value>
+      <webElementGuid>76b919ac-d684-4a11-a7c5-b8b0112389cc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='lpx-wrapper']/div[2]/div/div/div[2]/lpx-toolbar-container/lpx-toolbar/lpx-toolbar-items/lpx-toolbar-item[2]/div/div/div/abp-user-profile/lpx-user-profile/div/div/lpx-avatar/div/lpx-icon/i</value>
+      <webElementGuid>7bc97154-e67b-437d-a74c-d41aeb2a2916</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//lpx-avatar/div/lpx-icon/i</value>
+      <webElementGuid>8d6589a1-485f-4477-9c1b-e27538be7f3a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

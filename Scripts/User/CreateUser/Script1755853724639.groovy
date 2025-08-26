@@ -74,12 +74,7 @@ WebUI.waitForElementClickable(findTestObject('Object Repository/NewUser/Page_Use
 WebUI.click(findTestObject('Object Repository/NewUser/Page_Users  RevOne/button_Cancel_btn btn-primary'))
 
 WebUI.delay(2)
-WebUI.takeScreenshot()
-WebUI.waitForElementVisible(findTestObject('Object Repository/NewUser/Page_Users  RevOne/input_Email address_email'), 20)
-WebUI.setText(findTestObject('Object Repository/NewUser/Page_Users  RevOne/input_Email address_email'), 'Test789@gmail.com')
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/NewUser/Page_Users  RevOne/button_Cancel_btn btn-primary'), 10)
-WebUI.click(findTestObject('Object Repository/NewUser/Page_Users  RevOne/button_Cancel_btn btn-primary'))
 
 WebUI.waitForElementVisible(findTestObject('Object Repository/NewUser/Page_Users  RevOne/input_New user_form-control ng-untouched ng_88468f'), 30)
 WebUI.setText(findTestObject('Object Repository/NewUser/Page_Users  RevOne/input_New user_form-control ng-untouched ng_88468f'), 'TestUser8')

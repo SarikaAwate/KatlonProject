@@ -29,17 +29,14 @@ class RevOneListener {
 	 */
 	@BeforeTestCase
     def beforeTestCase(TestCaseContext testCaseContext) {
-        // Example: Only login for certain test cases (skip if not needed)
-        if (!testCaseContext.getTestCaseId().contains("login")) {
-            println "👉 Running login before test case: " + testCaseContext.getTestCaseId()
-
-            // Call the Login test case
-            WebUI.callTestCase(findTestCase('Test Cases/LoginRevone/login'),
-                [:],  // parameters if any (empty map if none)
-                FailureHandling.STOP_ON_FAILURE
-            )
-        }
+    if (testCaseContext.getTestCaseId().contains("NewUser") || 
+        testCaseContext.getTestCaseId().contains("login")) {
+        println "⏭️ Skipping login for: " + testCaseContext.getTestCaseId()
+    } else {
+        println "👉 Running login before test case: " + testCaseContext.getTestCaseId()
+        WebUI.callTestCase(findTestCase('Test Cases/LoginRevone/login'), [:], FailureHandling.STOP_ON_FAILURE)
     }
+}
 
 	/**
 	 * Executes after every test case ends.
