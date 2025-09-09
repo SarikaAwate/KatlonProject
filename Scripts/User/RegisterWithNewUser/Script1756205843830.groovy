@@ -28,13 +28,15 @@ WebUI.setText(findTestObject('Object Repository/Page_RevOne/input_Email_LoginInp
 WebUI.setText(findTestObject('Object Repository/Page_RevOne/input_Password_passwordInput'), password)
 
 WebUI.click(findTestObject('Object Repository/Page_RevOne/button_Forgot password_Action'))
+WebUI.delay(10)
 
 WebUI.click(findTestObject('Object Repository/Page_RevOne/lpx-icon_Cancel_lpx-avatar-icon ng-star-inserted'))
-
+WebUI.delay(10)
 WebUI.click(findTestObject('Object Repository/Page_RevOne/a_Test_dropdown-item ng-star-inserted'))
-
+WebUI.delay(10)
 WebUI.click(findTestObject('Object Repository/Page_My account  RevOne/a_Change password_nav-link ng-tns-c82153552-42'))
-
+WebUI.delay(10)
 WebUI.click(findTestObject('Object Repository/Page_My account  RevOne/input_User name_username'))
+WebUI.delay(10)
 
 

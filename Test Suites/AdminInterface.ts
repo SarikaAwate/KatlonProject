@@ -43,4 +43,11 @@
          <variableId>5d7e9032-0f7e-4a78-b7ec-6cb94f179644</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>fce7f05b-8f03-4af2-bcae-42c704c4843d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/User/DeleteUser</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>

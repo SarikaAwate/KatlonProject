@@ -6,12 +6,12 @@
    <elementGuidId>35feb113-1352-4a3d-8423-13c3a7c8c744</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='LoginInput_UserNameOrEmailAddress']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#LoginInput_UserNameOrEmailAddress</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='LoginInput_UserNameOrEmailAddress']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>e14f467c-0125-4ba4-bc90-845e10bee0b6</webElementGuid>
+      <webElementGuid>306281c1-a53b-4f00-a238-12af675ad8ef</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>2ae3431e-c8dc-4608-94a0-3863d7a940fe</webElementGuid>
+      <webElementGuid>c2ac994e-cd53-476d-8153-cc6f35292e09</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>f88369d8-f492-4fb5-8bd4-0f6180d9c40c</webElementGuid>
+      <webElementGuid>1aaf0efc-24cf-44e7-acac-a269f0179ee6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>data-val</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>5e67abc6-c150-4015-848f-3777723a35de</webElementGuid>
+      <webElementGuid>4aed7d8a-a9b2-4438-9170-19c9b44c92ef</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>data-val-length</name>
       <type>Main</type>
       <value>The field Username or email address must be a string with a maximum length of 256.</value>
-      <webElementGuid>d693fde1-1bb5-44f4-b918-b5f7648fb687</webElementGuid>
+      <webElementGuid>2c806da2-9e73-4689-a191-d79b41f09a28</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>data-val-length-max</name>
       <type>Main</type>
       <value>256</value>
-      <webElementGuid>95634939-a1bf-4d15-891d-cb22f471de39</webElementGuid>
+      <webElementGuid>90cdf2ba-a0c9-4015-beee-0bbcdc7b3918</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>data-val-required</name>
       <type>Main</type>
       <value>The Username or email address field is required.</value>
-      <webElementGuid>20154ad7-8f50-46d8-8355-ac0c3ed34cd8</webElementGuid>
+      <webElementGuid>92cf459d-d0a5-4223-bf5c-de5eb1af015a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -85,7 +85,7 @@
       <name>id</name>
       <type>Main</type>
       <value>LoginInput_UserNameOrEmailAddress</value>
-      <webElementGuid>afc338eb-d37f-4025-b5da-1fd1be2cbbf5</webElementGuid>
+      <webElementGuid>b16e4fb0-3e44-4979-9b72-ed6d683eac9d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>256</value>
-      <webElementGuid>147a3906-5662-4768-b550-4a73035e58ea</webElementGuid>
+      <webElementGuid>8049fdb7-5d1a-4e6e-b989-2a69718c9bd9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -101,7 +101,7 @@
       <name>name</name>
       <type>Main</type>
       <value>LoginInput.UserNameOrEmailAddress</value>
-      <webElementGuid>d6e57dad-914b-4fba-a438-d02ff9e1e027</webElementGuid>
+      <webElementGuid>3bce3910-6ff8-48fb-a2c8-f7523efc490b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;LoginInput_UserNameOrEmailAddress&quot;)</value>
-      <webElementGuid>976fe10a-04b4-4fef-90aa-0274472812be</webElementGuid>
+      <webElementGuid>f9ddff1c-49e7-4dd2-9c69-5fb31eed4cd0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='LoginInput_UserNameOrEmailAddress']</value>
-      <webElementGuid>993824eb-8261-4ee1-b1b5-d007819cb458</webElementGuid>
+      <webElementGuid>1368a31a-92fb-40a7-823d-e00cb1ec23c9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='lpx-wrapper']/div[2]/div[2]/div/div/div/div/div/div/form/div/input</value>
-      <webElementGuid>701e4b8a-0197-40af-b322-cbe1e7f76b55</webElementGuid>
+      <webElementGuid>52049063-e0ca-42a8-96a0-5249c3cec600</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +133,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/input</value>
-      <webElementGuid>d8bd857b-ad01-4247-9103-586bafa5862e</webElementGuid>
+      <webElementGuid>2318809c-9f88-4225-8377-baa044eb8655</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,6 +141,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @id = 'LoginInput_UserNameOrEmailAddress' and @name = 'LoginInput.UserNameOrEmailAddress']</value>
-      <webElementGuid>f6ba8558-7218-4731-a59c-0b8aa6add3c9</webElementGuid>
+      <webElementGuid>db47279a-fea3-47a7-a661-372fe4d60b04</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

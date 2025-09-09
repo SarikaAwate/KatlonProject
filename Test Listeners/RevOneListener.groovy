@@ -43,11 +43,14 @@ class RevOneListener {
 	 * @param testCaseContext related information of the executed test case.
 	 */
 	@AfterTestCase
-	def sampleAfterTestCase(TestCaseContext testCaseContext) {
-		println testCaseContext.getTestCaseId()
-		println testCaseContext.getTestCaseStatus()
-		WebUI.closeBrowser()
-
+	def afterTestCase(TestCaseContext testCaseContext) {
+        if (testCaseContext.getTestCaseStatus() == "FAILED") {
+            // Take screenshot with test case ID as file name
+            WebUI.takeScreenshot("Screenshots/" + testCaseContext.getTestCaseId() + ".png")
+        }
+        
+        // Close browser after every test case
+        WebUI.closeBrowser()
 	}
 
 	/**

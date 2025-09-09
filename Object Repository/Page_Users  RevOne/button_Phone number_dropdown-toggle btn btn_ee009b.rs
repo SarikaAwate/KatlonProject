@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Phone number_dropdown-toggle btn btn_ee009b</name>
+   <tag></tag>
+   <elementGuidId>8854afcd-ba04-431b-aca5-511cd214082c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.dropdown-toggle.btn.btn-primary.btn-sm</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='identity-roles-wrapper']/div/abp-extensible-table/ngx-datatable/div/datatable-body/datatable-selection/datatable-scroller/datatable-row-wrapper/datatable-body-row/div[2]/datatable-body-cell/div/abp-grid-actions/div/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot; Actions&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>1f4d73c7-677f-4976-93ca-2cea73f2f808</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-toggle</name>
+      <type>Main</type>
+      <value>dropdown</value>
+      <webElementGuid>0ce7a527-73b0-45cc-8e77-0b8ad8881dbb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-haspopup</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>d840073e-8a43-46ed-9a75-d778cf8be08f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dropdown-toggle btn btn-primary btn-sm</value>
+      <webElementGuid>1e188fc5-8e3e-402e-b89c-056b7657009b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>341ec03c-dbfb-4513-ab9d-44b157a2c209</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Actions </value>
+      <webElementGuid>14088916-02d5-488d-a177-62c5568aefc6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;identity-roles-wrapper&quot;)/div[@class=&quot;card-body&quot;]/abp-extensible-table[1]/ngx-datatable[@class=&quot;ngx-datatable fixed-header scroll-horz bordered material&quot;]/div[@class=&quot;visible&quot;]/datatable-body[@class=&quot;datatable-body&quot;]/datatable-selection[1]/datatable-scroller[@class=&quot;datatable-scroll ng-star-inserted&quot;]/datatable-row-wrapper[@class=&quot;datatable-row-wrapper ng-star-inserted&quot;]/datatable-body-row[@class=&quot;datatable-body-row datatable-row-even ng-star-inserted&quot;]/div[@class=&quot;datatable-row-center datatable-row-group ng-star-inserted&quot;]/datatable-body-cell[@class=&quot;datatable-body-cell sort-active ng-star-inserted&quot;]/div[@class=&quot;datatable-body-cell-label&quot;]/abp-grid-actions[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;d-inline-block ng-star-inserted dropdown&quot;]/button[@class=&quot;dropdown-toggle btn btn-primary btn-sm&quot;]</value>
+      <webElementGuid>32bab18a-1854-47c6-bb9b-6330d407c4ac</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='identity-roles-wrapper']/div/abp-extensible-table/ngx-datatable/div/datatable-body/datatable-selection/datatable-scroller/datatable-row-wrapper/datatable-body-row/div[2]/datatable-body-cell/div/abp-grid-actions/div/button</value>
+      <webElementGuid>9f0bdf82-fdd2-4037-974c-9a1a4d2d150a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Phone number'])[1]/following::button[1]</value>
+      <webElementGuid>8c4378b2-c3ba-48cb-a9d5-0c3a67d6caa6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email address'])[1]/following::button[1]</value>
+      <webElementGuid>932d4f54-5de2-4145-9857-279cf6e6fc47</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[1]/preceding::button[1]</value>
+      <webElementGuid>09975add-5ba7-4a8f-8ff2-51708c9217a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Permissions'])[1]/preceding::button[2]</value>
+      <webElementGuid>81289601-1027-4eb7-bc81-0d2137c57044</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//abp-grid-actions/div/button</value>
+      <webElementGuid>3a5e8263-3259-46d0-8e47-51543ac51228</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Actions ' or . = 'Actions ')]</value>
+      <webElementGuid>b8b2c8c7-8a6b-4b10-9638-359adfce96fd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

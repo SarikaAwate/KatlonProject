@@ -4,6 +4,7 @@
    <name>lpx-icon_Cancel_lpx-avatar-icon ng-star-inserted</name>
    <tag></tag>
    <elementGuidId>f3b1c611-975c-4d56-a5a9-ec56522660e8</elementGuidId>
+   <imagePath></imagePath>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -12,6 +13,14 @@
       <entry>
          <key>CSS</key>
          <value>lpx-icon.lpx-avatar-icon.ng-star-inserted</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;lpx-wrapper&quot;)/div[@class=&quot;lpx-content-container&quot;]/div[@class=&quot;lpx-topbar-container&quot;]/div[@class=&quot;lpx-topbar&quot;]/div[@class=&quot;lpx-topbar-content ng-star-inserted&quot;]/lpx-toolbar-container[@class=&quot;ng-star-inserted&quot;]/lpx-toolbar[1]/lpx-toolbar-items[@class=&quot;lpx-topbar-content&quot;]/lpx-toolbar-item[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;lpx-menu-item-link ng-star-inserted&quot;]/div[@class=&quot;lpx-menu-item-icon&quot;]/div[@class=&quot;lpx-icon&quot;]/abp-user-profile[@class=&quot;ng-star-inserted&quot;]/lpx-user-profile[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ng-star-inserted dropdown&quot;]/div[@class=&quot;dropdown-toggle lpx-user-profile&quot;]/lpx-avatar[1]/div[@class=&quot;lpx-avatar ng-star-inserted&quot;]/lpx-icon[@class=&quot;lpx-avatar-icon ng-star-inserted&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +38,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>lpx-icon</value>
-      <webElementGuid>6137e3b3-c7cf-441c-b9b0-31202bb36db6</webElementGuid>
+      <webElementGuid>13cf8da3-e5b3-4aa4-b040-dea830ab164f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>lpx-avatar-icon ng-star-inserted</value>
-      <webElementGuid>4db6f39e-8ea0-4034-a4d0-3182eb956ae9</webElementGuid>
+      <webElementGuid>559f6b71-36ad-4267-a679-5b4aca921f4a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;lpx-wrapper&quot;)/div[@class=&quot;lpx-content-container&quot;]/div[@class=&quot;lpx-topbar-container&quot;]/div[@class=&quot;lpx-topbar&quot;]/div[@class=&quot;lpx-topbar-content ng-star-inserted&quot;]/lpx-toolbar-container[@class=&quot;ng-star-inserted&quot;]/lpx-toolbar[1]/lpx-toolbar-items[@class=&quot;lpx-topbar-content&quot;]/lpx-toolbar-item[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;lpx-menu-item-link ng-star-inserted&quot;]/div[@class=&quot;lpx-menu-item-icon&quot;]/div[@class=&quot;lpx-icon&quot;]/abp-user-profile[@class=&quot;ng-star-inserted&quot;]/lpx-user-profile[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ng-star-inserted dropdown&quot;]/div[@class=&quot;dropdown-toggle lpx-user-profile&quot;]/lpx-avatar[1]/div[@class=&quot;lpx-avatar ng-star-inserted&quot;]/lpx-icon[@class=&quot;lpx-avatar-icon ng-star-inserted&quot;]</value>
-      <webElementGuid>a788a507-3f5b-4640-8231-4552b5562f73</webElementGuid>
+      <webElementGuid>0c718513-ecb8-48b2-baf5-c76a997cdbaa</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='lpx-wrapper']/div[2]/div/div/div[2]/lpx-toolbar-container/lpx-toolbar/lpx-toolbar-items/lpx-toolbar-item[2]/div/div/div/abp-user-profile/lpx-user-profile/div/div/lpx-avatar/div/lpx-icon</value>
-      <webElementGuid>933fa61d-bff7-4011-a708-d94e8d2c2427</webElementGuid>
+      <webElementGuid>8d355823-72f1-4474-b5b8-6383d39fa9e2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::lpx-icon[1]</value>
-      <webElementGuid>af0d3553-5388-4f58-a1bd-af6eaa37b10a</webElementGuid>
+      <webElementGuid>71eb83cc-2517-4ce1-a8fc-454878583dc2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Apply'])[1]/following::lpx-icon[1]</value>
-      <webElementGuid>1c49133e-3a99-4711-9e64-2c2a4f7dc2a2</webElementGuid>
+      <webElementGuid>ae42f521-05c3-4d17-aed5-1c05f3c31844</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Test'])[1]/preceding::lpx-icon[1]</value>
-      <webElementGuid>6ebc39ba-0a0c-4fa2-84e0-2111f6138394</webElementGuid>
+      <webElementGuid>e31e0e4a-5c85-468c-8d4f-f747cfb365bd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='My account'])[1]/preceding::lpx-icon[1]</value>
-      <webElementGuid>18ca978a-ffa6-4f2b-b126-ea522a0013fb</webElementGuid>
+      <webElementGuid>ccdb573d-720b-4e59-a32d-b1405eb5ab52</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +102,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//lpx-avatar/div/lpx-icon</value>
-      <webElementGuid>eca60054-8dca-4530-bfee-bb2b6d440034</webElementGuid>
+      <webElementGuid>09e3f7b6-3e5f-473e-9e4c-7ad3ba5b5f30</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
