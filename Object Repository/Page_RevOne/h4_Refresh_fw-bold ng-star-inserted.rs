@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h4_Refresh_fw-bold ng-star-inserted</name>
+   <tag></tag>
+   <elementGuidId>141de31e-2d9f-499c-a5e8-a19814fdf8f1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='lpx-wrapper']/div[2]/div[2]/app-home/abp-page/div[2]/div/div[2]/div/div[4]/div/div/h4</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=heading[name=&quot;115349&quot;i] >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h4</value>
+      <webElementGuid>74f006d9-2cd4-4614-9fc6-b43ae5cb7044</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fw-bold ng-star-inserted</value>
+      <webElementGuid>4ac89962-40f0-4998-b3fb-6b8e179ed13b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>115349</value>
+      <webElementGuid>468f419e-3d1c-4c99-b05f-5a0c9b760b11</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;lpx-wrapper&quot;)/div[@class=&quot;lpx-content-container&quot;]/div[@class=&quot;lpx-content&quot;]/app-home[@class=&quot;ng-star-inserted&quot;]/abp-page[1]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;row g-3&quot;]/div[@class=&quot;col-md-3x ng-star-inserted&quot;]/div[@class=&quot;card text-center shadow-sm border-0 tile h-100 bouncy-tile bg-light-green&quot;]/div[@class=&quot;card-body&quot;]/h4[@class=&quot;fw-bold ng-star-inserted&quot;]</value>
+      <webElementGuid>eef849e7-f45e-4a20-b8cf-c2542b99662c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='lpx-wrapper']/div[2]/div[2]/app-home/abp-page/div[2]/div/div[2]/div/div[4]/div/div/h4</value>
+      <webElementGuid>87c43356-9489-443e-a3ef-68da47a9248f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Refresh'])[1]/following::h4[4]</value>
+      <webElementGuid>07d88f40-5857-48f1-b117-0afb0ea33afe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Date'])[1]/following::h4[4]</value>
+      <webElementGuid>d0013248-2bed-4f01-bfaa-26b3d9333d67</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[2]/preceding::h4[12]</value>
+      <webElementGuid>02ffc4af-38a2-4718-9f18-b95fdd792c03</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Apply'])[2]/preceding::h4[12]</value>
+      <webElementGuid>1beca3b1-ac51-4e46-a18c-1ba7377699c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='115349']/parent::*</value>
+      <webElementGuid>a08fdc0e-82b4-4d47-8e8a-7e69f90a37d1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div/h4</value>
+      <webElementGuid>6a573a2a-caf0-4d92-98b5-14fec40c9b31</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h4[(text() = '115349' or . = '115349')]</value>
+      <webElementGuid>6683ba69-3c7f-476c-b9bf-3915f16b4a49</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

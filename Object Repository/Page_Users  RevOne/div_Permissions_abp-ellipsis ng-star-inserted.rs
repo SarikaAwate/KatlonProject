@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>p_No data available_abp-toast-message</name>
+   <name>div_Permissions_abp-ellipsis ng-star-inserted</name>
    <tag></tag>
-   <elementGuidId>040f004f-4589-466f-9581-9189021ffb15</elementGuidId>
+   <elementGuidId>ca567cf7-9b00-444f-86d0-bd73e995eb44</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>p.abp-toast-message</value>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='No data available'])[1]/following::p[1]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Permissions'])[1]/following::div[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:text=&quot;Deleted successfully&quot;i</value>
+         <value>internal:role=button[name=&quot;Delete&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,71 +28,79 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>p</value>
-      <webElementGuid>0ba57b34-4f2f-4c40-a9b3-b374b42c57ea</webElementGuid>
+      <value>div</value>
+      <webElementGuid>3a779b83-f887-444d-a416-4c7c3f434e81</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Delete</value>
+      <webElementGuid>e8650b39-6213-4221-84db-3083ca77d70c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>abp-toast-message</value>
-      <webElementGuid>ba9dfbfb-d5ac-428f-a976-8415b82039db</webElementGuid>
+      <value>abp-ellipsis ng-star-inserted</value>
+      <webElementGuid>1d801d7c-d361-4502-b503-9d34c62225ca</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Deleted successfully</value>
-      <webElementGuid>8be13321-3543-4544-9966-92bec7afea7e</webElementGuid>
+      <value>Delete</value>
+      <webElementGuid>6be3d2e2-8fee-403c-a6fc-3dae21ddad91</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/abp-toast-container[@class=&quot;ng-tns-c2738070610-42 ng-star-inserted&quot;]/div[@class=&quot;abp-toast-container ng-tns-c2738070610-42 ng-trigger ng-trigger-toastInOut&quot;]/abp-toast[@class=&quot;ng-tns-c2738070610-42 ng-star-inserted&quot;]/div[@class=&quot;abp-toast abp-toast-success&quot;]/div[@class=&quot;abp-toast-content&quot;]/p[@class=&quot;abp-toast-message&quot;]</value>
-      <webElementGuid>1a587a14-0d6d-465a-bc76-f06ba70f1bdd</webElementGuid>
+      <value>/html[1]/body[1]/div[@class=&quot;dropdown&quot;]/div[@class=&quot;dropdown-menu show&quot;]/button[@class=&quot;dropdown-item ng-star-inserted&quot;]/div[@class=&quot;abp-ellipsis ng-star-inserted&quot;]</value>
+      <webElementGuid>d0bf9dff-0ff3-43c6-b7c6-974793ff95db</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='No data available'])[1]/following::p[1]</value>
-      <webElementGuid>3c1963df-435b-4375-a95a-540a2fbea5c8</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Permissions'])[1]/following::div[1]</value>
+      <webElementGuid>18a7e8d1-7ee6-4e08-aaa4-772b06be3bbb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Phone number'])[1]/following::p[1]</value>
-      <webElementGuid>ba05ae38-244c-4642-86eb-10120e436ee9</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[1]/following::div[2]</value>
+      <webElementGuid>991053e9-77fa-48a9-8d1e-a29a9bb6e4f8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Deleted successfully']/parent::*</value>
-      <webElementGuid>0e41a69c-f165-4fef-a568-2f6df1ac5214</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Delete']/parent::*</value>
+      <webElementGuid>db2f0a40-cc0f-49b4-a7f0-61a63441c072</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//p</value>
-      <webElementGuid>cc2f7ef4-9234-472f-8bb7-cac5f784863d</webElementGuid>
+      <value>//button[3]/div</value>
+      <webElementGuid>b2d118f8-49ea-4e21-8840-fe40e054598d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//p[(text() = 'Deleted successfully' or . = 'Deleted successfully')]</value>
-      <webElementGuid>1310b9b1-1cf2-4865-9484-5fdd2f9530c3</webElementGuid>
+      <value>//div[@title = 'Delete' and (text() = 'Delete' or . = 'Delete')]</value>
+      <webElementGuid>edb02fe9-de64-4d1a-9e03-371680fded2a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

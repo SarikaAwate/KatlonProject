@@ -43,15 +43,17 @@ class RevOneListener {
 	 * @param testCaseContext related information of the executed test case.
 	 */
 	@AfterTestCase
-	def afterTestCase(TestCaseContext testCaseContext) {
+	 def takeScreenshotAndClose(TestCaseContext testCaseContext) {
         if (testCaseContext.getTestCaseStatus() == "FAILED") {
-            // Take screenshot with test case ID as file name
-            WebUI.takeScreenshot("Screenshots/" + testCaseContext.getTestCaseId() + ".png")
+            // Take screenshot with TestCaseID as filename
+            String filePath = "Screenshots/" + testCaseContext.getTestCaseId().replaceAll('/', '_') + ".png"
+            WebUI.takeScreenshot(filePath)
+            println "📸 Screenshot saved at: " + filePath
         }
         
-        // Close browser after every test case
+        // Always close the browser after each test case
         WebUI.closeBrowser()
-	}
+    }
 
 	/**
 	 * Executes before every test suite starts.

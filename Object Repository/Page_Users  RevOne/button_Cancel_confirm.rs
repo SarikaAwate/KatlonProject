@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>577a6293-c504-4dec-bd4d-b43878f1c5a4</webElementGuid>
+      <webElementGuid>e03e9273-cc61-4d2c-836a-9755ee45893a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>id</name>
       <type>Main</type>
       <value>confirm</value>
-      <webElementGuid>88928ff7-7d8e-4b70-851b-c49d868ef5bc</webElementGuid>
+      <webElementGuid>637b1a14-8504-4fa9-bfcb-63efbfefff19</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary ng-star-inserted</value>
-      <webElementGuid>781eff9c-aca9-487f-85cc-61a18eade8d6</webElementGuid>
+      <webElementGuid>547eec61-a423-4204-b681-6c2900744727</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Yes</value>
-      <webElementGuid>c1b3865a-9bd3-4541-b19c-189c120a1bd2</webElementGuid>
+      <webElementGuid>db83a041-ef94-4d49-b0f9-25f5ef04b2f1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;confirm&quot;)</value>
-      <webElementGuid>02723044-016c-4fd2-a871-7cbf58ca12fa</webElementGuid>
+      <webElementGuid>d7956f55-f772-4fed-833e-d54b57804b08</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@id='confirm']</value>
-      <webElementGuid>9739af21-9e15-40c4-9468-fcbb70df51b6</webElementGuid>
+      <webElementGuid>c2d8160f-57f9-4dd6-8978-9b7f37bacca8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[2]/following::button[1]</value>
-      <webElementGuid>d968392f-aa32-4727-a70c-40bd79e49397</webElementGuid>
+      <webElementGuid>7b6c6464-8258-4f60-8b00-9b13a9235456</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Are you sure?'])[1]/following::button[2]</value>
-      <webElementGuid>de1b0991-9956-4d6d-a82c-6062095568f8</webElementGuid>
+      <webElementGuid>aeb81399-2db0-4733-ab04-3e90d91ce5f6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Yes']/parent::*</value>
-      <webElementGuid>05e21619-04fa-4a0c-b741-4bad3f23b722</webElementGuid>
+      <webElementGuid>ef5dd1be-ac16-44d3-829e-79cd3630d212</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[3]/button[2]</value>
-      <webElementGuid>2c5288d1-fa15-466b-8c99-ba8a0bb50f6b</webElementGuid>
+      <webElementGuid>c6f0455b-9baa-4778-ad96-7694079d912d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@id = 'confirm' and (text() = 'Yes' or . = 'Yes')]</value>
-      <webElementGuid>95f9f5e7-97e6-4237-9a20-1f1651777e5b</webElementGuid>
+      <webElementGuid>184ee811-4eb3-4bf9-b199-24f258a62746</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>e874cf37-dcce-429b-902b-f38bea458d30</webElementGuid>
+      <webElementGuid>8d79c7c1-7ecb-4db5-b0a3-4bd28329be45</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>lpx-menu-item-text hidden-in-hover-trigger ng-tns-c4125907324-27 ng-star-inserted</value>
-      <webElementGuid>d5c71594-39d6-4457-b811-196b008e03d6</webElementGuid>
+      <webElementGuid>7253b931-7594-414d-bd88-8edc467bd706</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Users</value>
-      <webElementGuid>239c8a2c-3984-4f4e-a397-7931e3871d95</webElementGuid>
+      <webElementGuid>0398c4c7-0f98-494a-9a07-6b49398b8a60</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;lpx-wrapper&quot;)/div[@class=&quot;lpx-sidebar-container ng-star-inserted&quot;]/div[@class=&quot;lpx-sidebar&quot;]/lpx-navbar[@class=&quot;ng-star-inserted&quot;]/nav[@class=&quot;lpx-nav&quot;]/lpx-navbar-routes[@class=&quot;ng-star-inserted&quot;]/ul[@class=&quot;lpx-nav-menu&quot;]/li[@class=&quot;outer-menu-item ng-star-inserted&quot;]/lpx-sub-navbar[@class=&quot;ng-tns-c4125907324-21 ng-star-inserted&quot;]/ul[@class=&quot;lpx-inner-menu hidden-in-hover-trigger ng-tns-c4125907324-21 ng-star-inserted&quot;]/li[@class=&quot;lpx-inner-menu-item ng-tns-c4125907324-21 ng-star-inserted&quot;]/lpx-sub-navbar[@class=&quot;ng-tns-c4125907324-21 ng-tns-c4125907324-23 ng-star-inserted&quot;]/ul[@class=&quot;lpx-inner-menu hidden-in-hover-trigger ng-tns-c4125907324-23 ng-star-inserted&quot;]/li[@class=&quot;lpx-inner-menu-item ng-tns-c4125907324-23 ng-star-inserted&quot;]/lpx-sub-navbar[@class=&quot;ng-tns-c4125907324-23 ng-tns-c4125907324-27 ng-star-inserted&quot;]/a[@class=&quot;lpx-menu-item-link ng-tns-c4125907324-27 ng-star-inserted&quot;]/span[@class=&quot;lpx-menu-item-text hidden-in-hover-trigger ng-tns-c4125907324-27 ng-star-inserted&quot;]</value>
-      <webElementGuid>939a590b-b0b2-45ad-81b5-89790a951332</webElementGuid>
+      <webElementGuid>5a51feb8-6f28-4184-abe8-4e743dde0608</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='lpx-wrapper']/div/div/lpx-navbar/nav/lpx-navbar-routes/ul/li[5]/lpx-sub-navbar/ul/li/lpx-sub-navbar/ul/li[2]/lpx-sub-navbar/a/span</value>
-      <webElementGuid>8d585331-1201-4fd0-8c04-8e31cd31bed2</webElementGuid>
+      <webElementGuid>a51418cd-8812-4d02-9d2f-1ff4b908391f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Roles'])[1]/following::span[1]</value>
-      <webElementGuid>6333e88e-9628-4fa3-ab40-3ab4046e4f69</webElementGuid>
+      <webElementGuid>6d5a455e-6899-4ca4-8131-02f4b14135e1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Identity management'])[1]/following::span[2]</value>
-      <webElementGuid>4b9e88f5-db7e-42ed-9220-7a8737d52c08</webElementGuid>
+      <webElementGuid>baab3e83-9e00-42d1-8d85-4a7b7426f59e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Invite'])[1]/preceding::span[1]</value>
-      <webElementGuid>e0781b75-7d24-4403-bcdf-17c5da83ee20</webElementGuid>
+      <webElementGuid>15920e38-d20d-426c-9b07-9d320fdfef97</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Hospital Configuration'])[1]/preceding::span[2]</value>
-      <webElementGuid>fde4403d-c4d5-48ed-a3dd-11b7dc9139f7</webElementGuid>
+      <webElementGuid>e0f12a08-9026-4d86-ad4a-052ead3f9ee3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Users']/parent::*</value>
-      <webElementGuid>6d564057-5996-47df-ab4b-ecfabdb71d8e</webElementGuid>
+      <webElementGuid>1c42f963-25a2-4694-b508-7e7bbf81cfd0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//lpx-sub-navbar/ul/li/lpx-sub-navbar/ul/li[2]/lpx-sub-navbar/a/span</value>
-      <webElementGuid>d5a6e7f2-96ac-4ad4-9f5a-f9adb9c4da42</webElementGuid>
+      <webElementGuid>38292ffa-59b6-40e8-beab-3324cd5c73f6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +117,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Users' or . = 'Users')]</value>
-      <webElementGuid>827b4994-d9d7-4aac-a058-7c29d21fc7ea</webElementGuid>
+      <webElementGuid>5e4b4878-e018-403e-9520-f5084e7f71ca</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

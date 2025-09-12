@@ -17,37 +17,31 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-
 // Wait and click User Access Logs
-WebUI.waitForElementClickable(findTestObject('Object Repository/Page_RevOne/span_User Access Logs_lpx-menu-item-text hi_e1ede2'), 10)
+//WebUI.openBrowser('')
+
+//WebUI.navigateToUrl('https://hospital-connect-dev.revone.io/')
+
+//WebUI.setText(findTestObject('Object Repository/Page_RevOne/input_Email_LoginInput_UserNameOrEmailAddress'), 'admin@bpktechmail.com')
+
+//WebUI.setEncryptedText(findTestObject('Object Repository/Page_RevOne/input_Password_passwordInput'), 'oOPfrP0qswM=')
+
+//WebUI.click(findTestObject('Object Repository/Page_RevOne/button_Forgot password_Action'))
+
 WebUI.click(findTestObject('Object Repository/Page_RevOne/span_User Access Logs_lpx-menu-item-text hi_e1ede2'))
-
-// Wait and click Administration
-WebUI.waitForElementClickable(findTestObject('Object Repository/Page_RevOne/span_Administration_lpx-menu-item-text hidd_7477db'), 10)
+WebUI.delay(20)
 WebUI.click(findTestObject('Object Repository/Page_RevOne/span_Administration_lpx-menu-item-text hidd_7477db'))
-
-// Wait and click Roles
-WebUI.waitForElementClickable(findTestObject('Object Repository/Page_RevOne/span_Roles_lpx-menu-item-text hidden-in-hov_47be33'), 10)
+WebUI.delay(20)
 WebUI.click(findTestObject('Object Repository/Page_RevOne/span_Roles_lpx-menu-item-text hidden-in-hov_47be33'))
-
-// Wait and set text in New user field
-WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Users  RevOne/input_New user_form-control ng-untouched ng_88468f'), 10)
-WebUI.setText(findTestObject('Object Repository/Page_Users  RevOne/input_New user_form-control ng-untouched ng_88468f'), 'TestUser8')
-
-// Wait and click Phone number dropdown
-WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Users  RevOne/button_Phone number_dropdown-toggle btn btn_ee009b'), 10)
+WebUI.delay(20)
+WebUI.setText(findTestObject('Object Repository/Page_Users  RevOne/input_New user_form-control ng-untouched ng_88468f'), 
+    'TestUser8')
+WebUI.delay(20)
 WebUI.click(findTestObject('Object Repository/Page_Users  RevOne/button_Phone number_dropdown-toggle btn btn_ee009b'))
-
-// Wait and click Permissions option
-WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Users  RevOne/button_Permissions_dropdown-item ng-star-inserted'), 10)
-WebUI.click(findTestObject('Object Repository/Page_Users  RevOne/button_Permissions_dropdown-item ng-star-inserted'))
-
-// Wait and click Cancel
-WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Users  RevOne/button_Cancel_confirm'), 10)
+WebUI.delay(20)
+WebUI.click(findTestObject('Object Repository/Page_Users  RevOne/div_Permissions_abp-ellipsis ng-star-inserted'))
+WebUI.delay(20)
 WebUI.click(findTestObject('Object Repository/Page_Users  RevOne/button_Cancel_confirm'))
 
-// Wait and verify toast message appears instead of doubleClick
-WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Users  RevOne/p_No data available_abp-toast-message'), 10)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Users  RevOne/p_No data available_abp-toast-message'), 10)
-
+WebUI.doubleClick(findTestObject('Object Repository/Page_Users  RevOne/p_No data available_abp-toast-message'))
 
