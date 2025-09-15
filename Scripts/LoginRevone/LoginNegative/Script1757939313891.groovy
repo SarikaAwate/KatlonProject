@@ -16,27 +16,4 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-
-
-WebUI.click(findTestObject('InviteUser/Administrator_Menu'))
-
-WebUI.click(findTestObject('InviteUser/IdentityManagement_Menu'))
-
-WebUI.click(findTestObject('InviteUser/InviteUser_menu'))
-
-WebUI.setText(findTestObject('InviteUser/InviteUser__firstName'), 'Test')
-
-WebUI.setText(findTestObject('InviteUser/InviteUser__lastName'), 'User')
-
-WebUI.setText(findTestObject('InviteUser/InviteUser__email'), 'Abc679o@gmail.com')
-
-WebUI.click(findTestObject('InviteUser/select__role'))
-
-WebUI.selectOptionByIndex(findTestObject('InviteUser/select__role'), 2)
-
-WebUI.click(findTestObject('InviteUser/Page_RevOne/InviteUser_Button'))
-
-String toastText =WebUI.getText(findTestObject('InviteUser/Page_RevOne/Toast-message-SucessfullyInvitationSent'))
-WebUI.verifyTextContains(toastText, 'sent to the user', false)
 

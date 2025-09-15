@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LoginPositive</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1373cee3-4d7b-4956-afd1-83a5af9758a7</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>2602691d-e6ff-4fa6-8388-94ec19a3ad02</id>
+      <iterationEntity>
+         <iterationType>RANGE</iterationType>
+         <value>1-2</value>
+      </iterationEntity>
+      <testDataId>Data Files/LoginData</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>2602691d-e6ff-4fa6-8388-94ec19a3ad02</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Email</value>
+      <variableId>289c4dc0-8576-414e-ac92-fa885222f30d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>2602691d-e6ff-4fa6-8388-94ec19a3ad02</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Password</value>
+      <variableId>dc93bccf-ff54-41d2-b1fc-20d58e486948</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>289c4dc0-8576-414e-ac92-fa885222f30d</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>dc93bccf-ff54-41d2-b1fc-20d58e486948</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

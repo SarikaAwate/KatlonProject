@@ -6,6 +6,12 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>7532939e-a08a-405b-a4df-7c2bf7343ec9</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f2dfd195-bbe4-4610-ae6e-fa9fc0fb9dfb</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
