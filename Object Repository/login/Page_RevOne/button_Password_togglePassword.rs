@@ -6,12 +6,12 @@
    <elementGuidId>0f3d5a0d-ed7e-4c49-b55c-6cd762326666</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@id='togglePassword']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#togglePassword</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='togglePassword']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>d20f569a-6dc0-42c9-a663-821f14eea9db</webElementGuid>
+      <webElementGuid>1bb42ab3-3850-4638-93e3-809d13cda73d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>e8859a55-68f8-4b1b-b42f-c568144873ed</webElementGuid>
+      <webElementGuid>b21edb71-0fe8-4411-9955-0a9073c4650f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-outline-secondary</value>
-      <webElementGuid>3b5a60cc-9915-420a-ad4e-8dcb77e9ae32</webElementGuid>
+      <webElementGuid>4be49629-b2f1-4968-bf5f-701caccf6518</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>id</name>
       <type>Main</type>
       <value>togglePassword</value>
-      <webElementGuid>b2232938-57da-47b3-b978-4fa1f6a9df81</webElementGuid>
+      <webElementGuid>79026758-04a3-44e6-a240-27e56297b70e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>7344bfee-b7fb-4071-8079-eee35e67de57</webElementGuid>
+      <webElementGuid>4285c2e8-6e89-4a0d-bdfc-2e32af0b0e29</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;togglePassword&quot;)</value>
-      <webElementGuid>8f9eef09-6e1f-45dc-84a7-b75361ec66e9</webElementGuid>
+      <webElementGuid>bbd6145d-0bf3-49dc-8482-4ffb1c3e1073</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@id='togglePassword']</value>
-      <webElementGuid>e5708dc0-fe60-4232-808b-2142c64e6485</webElementGuid>
+      <webElementGuid>acf31569-44af-4d89-af8c-26d5b1b090f9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='lpx-wrapper']/div[2]/div[2]/div/div/div/div/div/div/form/div[2]/div/button</value>
-      <webElementGuid>12ac7d8f-fc76-433b-8f5c-b7b0b2c783b9</webElementGuid>
+      <webElementGuid>793fdac2-d8b9-4a74-8682-86f78e816c69</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::button[1]</value>
-      <webElementGuid>8abcfab9-ce80-42f9-9085-12bf91378f97</webElementGuid>
+      <webElementGuid>4ec058fb-e163-409a-842d-7b4b54639c2e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Email'])[1]/following::button[1]</value>
-      <webElementGuid>8b198449-d35e-47de-a5c4-9f55100bccf2</webElementGuid>
+      <webElementGuid>0d359daf-395f-438d-a4c1-d403de766b5a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Forgot password?'])[1]/preceding::button[1]</value>
-      <webElementGuid>8ae92a34-5b72-4d82-83bc-aa2781d6ae54</webElementGuid>
+      <webElementGuid>0e43ff7b-81ff-49a7-98ae-4743b77ccfb4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button</value>
-      <webElementGuid>703d6aaa-ed17-46f1-bf58-eefd584b08e1</webElementGuid>
+      <webElementGuid>bac694f8-c1a7-4332-be37-30a84d9869aa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +125,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and @id = 'togglePassword']</value>
-      <webElementGuid>0c4a6672-bfcd-47de-a198-30da61eb6800</webElementGuid>
+      <webElementGuid>44821417-4d5f-4cb6-b9bb-73d4f3fe30a0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

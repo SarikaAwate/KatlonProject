@@ -22,19 +22,31 @@ import com.kms.katalon.core.annotation.AfterTestSuite
 import com.kms.katalon.core.context.TestCaseContext
 import com.kms.katalon.core.context.TestSuiteContext
 
-class RevOneListener {
+class RevOneListener
+ {
 	/**
 	 * Executes before every test case starts.
 	 * @param testCaseContext related information of the executed test case.
 	 */
 	@BeforeTestCase
-    def beforeTestCase(TestCaseContext testCaseContext) {
+    def beforeTestCase(TestCaseContext testCaseContext) 
+	{
     if (testCaseContext.getTestCaseId().contains("NewUser") || 
-        testCaseContext.getTestCaseId().contains("login")) {
+        testCaseContext.getTestCaseId().contains("login")|| 
+	    testCaseContext.getTestCaseId().contains("Login"))
+	{
         println "⏭️ Skipping login for: " + testCaseContext.getTestCaseId()
-    } else {
+    } 
+	else 
+	{
         println "👉 Running login before test case: " + testCaseContext.getTestCaseId()
-        WebUI.callTestCase(findTestCase('Test Cases/LoginRevone/login'), [:], FailureHandling.STOP_ON_FAILURE)
+       // WebUI.callTestCase(findTestCase('Test Cases/LoginRevone/LoginPositive'), [:], FailureHandling.STOP_ON_FAILURE)
+		WebUI.callTestCase(
+			findTestCase('Test Cases/LoginRevone/LoginPositive'),
+			[('Email') : GlobalVariable.Username,
+			 ('Password') : GlobalVariable.Password],
+			FailureHandling.STOP_ON_FAILURE
+		)
     }
 }
 
@@ -43,13 +55,15 @@ class RevOneListener {
 	 * @param testCaseContext related information of the executed test case.
 	 */
 	@AfterTestCase
-	 def takeScreenshotAndClose(TestCaseContext testCaseContext) {
-        if (testCaseContext.getTestCaseStatus() == "FAILED") {
+	 def takeScreenshotAndClose(TestCaseContext testCaseContext)
+	  {
+        if (testCaseContext.getTestCaseStatus() == "FAILED") 
+			{
             // Take screenshot with TestCaseID as filename
             String filePath = "Screenshots/" + testCaseContext.getTestCaseId().replaceAll('/', '_') + ".png"
             WebUI.takeScreenshot(filePath)
             println "📸 Screenshot saved at: " + filePath
-        }
+            }
         
         // Always close the browser after each test case
         WebUI.closeBrowser()

@@ -8,21 +8,21 @@
    <testCaseGuid>1373cee3-4d7b-4956-afd1-83a5af9758a7</testCaseGuid>
    <testDataLinks>
       <combinationType>ONE</combinationType>
-      <id>2602691d-e6ff-4fa6-8388-94ec19a3ad02</id>
+      <id>5bd81fe1-c8eb-487a-839d-c35cdbb9857f</id>
       <iterationEntity>
-         <iterationType>RANGE</iterationType>
-         <value>1-2</value>
+         <iterationType>ALL</iterationType>
+         <value></value>
       </iterationEntity>
-      <testDataId>Data Files/LoginData</testDataId>
+      <testDataId>Data Files/LoginPostiveandNegative</testDataId>
    </testDataLinks>
    <variableLinks>
-      <testDataLinkId>2602691d-e6ff-4fa6-8388-94ec19a3ad02</testDataLinkId>
+      <testDataLinkId>5bd81fe1-c8eb-487a-839d-c35cdbb9857f</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>Email</value>
       <variableId>289c4dc0-8576-414e-ac92-fa885222f30d</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>2602691d-e6ff-4fa6-8388-94ec19a3ad02</testDataLinkId>
+      <testDataLinkId>5bd81fe1-c8eb-487a-839d-c35cdbb9857f</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>Password</value>
       <variableId>dc93bccf-ff54-41d2-b1fc-20d58e486948</variableId>

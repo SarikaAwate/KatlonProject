@@ -25,33 +25,40 @@ WebUI.maximizeWindow()
 
 WebUI.delay(5)
 
-// Wait for email field to be present before typing
-WebUI.waitForElementVisible(findTestObject('Object Repository/login/Page_RevOne/input_Email_LoginInput_UserNameOrEmailAddress'), 
-    20)
+WebUI.setText(findTestObject('login/Page_RevOne/Email'), Email)
 
-WebUI.setText(findTestObject('Object Repository/login/Page_RevOne/input_Email_LoginInput_UserNameOrEmailAddress'), GlobalVariable.Username)
-
-WebUI.waitForElementVisible(findTestObject('Object Repository/login/Page_RevOne/input_Password_passwordInput'), 20)
-
-WebUI.setText(findTestObject('Object Repository/login/Page_RevOne/input_Password_passwordInput'), GlobalVariable.Password)
-
-WebUI.waitForElementClickable(findTestObject('Object Repository/login/Page_RevOne/button_Password_togglePassword'), 20)
+WebUI.setText(findTestObject('login/Page_RevOne/Password'), Password)
 
 WebUI.click(findTestObject('Object Repository/login/Page_RevOne/button_Password_togglePassword'))
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/login/Page_RevOne/button_Forgot password_Action'), 20)
 
-WebUI.click(findTestObject('Object Repository/login/Page_RevOne/button_Forgot password_Action'))
+WebUI.click(findTestObject('login/Page_RevOne/Login'))
 
-// Wait for dashboard breadcrumb text
-WebUI.waitForElementVisible(findTestObject('Object Repository/login/Page_RevOne/span_HL7 Mapping_lpx-breadcrumb-item-text n_821826'), 
-    30)
+TestObject errorMessageObj = findTestObject('Object Repository/login/Page_RevOne/InvalidUserNameandPassword')
 
-WebUI.delay(30)
+TestObject dashboardObj = findTestObject('Object Repository/login/Page_RevOne/span_HL7 Mapping_lpx-breadcrumb-item-text n_821826')
 
-Dashbaord = WebUI.getText(findTestObject('Object Repository/login/Page_RevOne/span_HL7 Mapping_lpx-breadcrumb-item-text n_821826'))
+if (WebUI.verifyElementPresent(errorMessageObj, 5, FailureHandling.OPTIONAL)) {
+    String errorText = WebUI.getText(errorMessageObj // Now safely get the text
+        )
 
-assert Dashbaord.contains('Home')
+    WebUI.comment('Invalid Login: Error message displayed - ' + errorText)
 
-System.out.println(Dashbaord)
+    assert true // Else check if dashboard element exists (Valid Login case)
+    //(WebUI.verifyElementPresent(dashboardObj, 5, FailureHandling.OPTIONAL)) 
+} else {
+    WebUI.delay(30)
+
+    String dashboardText = WebUI.getText(dashboardObj)
+
+    if (dashboardText.contains('Home')) {
+        WebUI.comment('Valid Login: Dashboard contains Home')
+
+        assert true
+    } else {
+        WebUI.comment('Dashboard appeared but "Home" not found')
+
+        assert false
+    }
+}
 

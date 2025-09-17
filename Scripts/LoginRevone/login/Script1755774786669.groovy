@@ -19,27 +19,16 @@ import org.openqa.selenium.Keys as Keys
 import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
-
 WebUI.navigateToUrl(GlobalVariable.URL)
 WebUI.maximizeWindow()
 WebUI.delay(5)
-// Wait for email field to be present before typing
-WebUI.waitForElementVisible(findTestObject('Object Repository/login/Page_RevOne/input_Email_LoginInput_UserNameOrEmailAddress'), 20)
-WebUI.setText(findTestObject('Object Repository/login/Page_RevOne/input_Email_LoginInput_UserNameOrEmailAddress'),GlobalVariable.Username)
-
-WebUI.waitForElementVisible(findTestObject('Object Repository/login/Page_RevOne/input_Password_passwordInput'), 20)
-WebUI.setText(findTestObject('Object Repository/login/Page_RevOne/input_Password_passwordInput'),GlobalVariable.Password)
-
-WebUI.waitForElementClickable(findTestObject('Object Repository/login/Page_RevOne/button_Password_togglePassword'), 20)
+WebUI.setText(findTestObject('login/Page_RevOne/Email'), GlobalVariable.Username)
+WebUI.setText(findTestObject('login/Page_RevOne/Password'), GlobalVariable.Password)
 WebUI.click(findTestObject('Object Repository/login/Page_RevOne/button_Password_togglePassword'))
-
-WebUI.waitForElementClickable(findTestObject('Object Repository/login/Page_RevOne/button_Forgot password_Action'), 20)
-WebUI.click(findTestObject('Object Repository/login/Page_RevOne/button_Forgot password_Action'))
-
+WebUI.click(findTestObject('login/Page_RevOne/Login'))
 // Wait for dashboard breadcrumb text
 WebUI.waitForElementVisible(findTestObject('Object Repository/login/Page_RevOne/span_HL7 Mapping_lpx-breadcrumb-item-text n_821826'), 30)
 WebUI.delay(30)
 Dashbaord = WebUI.getText(findTestObject('Object Repository/login/Page_RevOne/span_HL7 Mapping_lpx-breadcrumb-item-text n_821826'))
-
 assert Dashbaord.contains("Home")
 System.out.println(Dashbaord)

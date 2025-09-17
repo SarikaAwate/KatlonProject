@@ -29,7 +29,7 @@ WebUI.setText(findTestObject('InviteUser/InviteUser__firstName'), 'Test')
 
 WebUI.setText(findTestObject('InviteUser/InviteUser__lastName'), 'User')
 
-WebUI.setText(findTestObject('InviteUser/InviteUser__email'), 'Abc679o@gmail.com')
+WebUI.setText(findTestObject('InviteUser/InviteUser__email'), 'Abc67i9o@gmail.com')
 
 WebUI.click(findTestObject('InviteUser/select__role'))
 
@@ -38,5 +38,5 @@ WebUI.selectOptionByIndex(findTestObject('InviteUser/select__role'), 2)
 WebUI.click(findTestObject('InviteUser/Page_RevOne/InviteUser_Button'))
 
 String toastText =WebUI.getText(findTestObject('InviteUser/Page_RevOne/Toast-message-SucessfullyInvitationSent'))
-WebUI.verifyTextContains(toastText, 'sent to the user', false)
+assert toastText.contains('Invitation is sent to the user')
 
