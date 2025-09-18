@@ -16,23 +16,19 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import internal.GlobalVariable as GlobalVariable
-import com.kms.katalon.core.configuration.RunConfiguration
 
-WebUI.openBrowser('')
-WebUI.navigateToUrl(GlobalVariable.URL)
-WebUI.maximizeWindow()
-WebUI.delay(5)
-WebUI.setText(findTestObject('login/Page_RevOne/Email'), GlobalVariable.Username)
-WebUI.setText(findTestObject('login/Page_RevOne/Password'), GlobalVariable.Password)
-WebUI.click(findTestObject('Object Repository/login/Page_RevOne/button_Password_togglePassword'))
-WebUI.click(findTestObject('login/Page_RevOne/Login'))
-// Wait for dashboard breadcrumb text
-WebUI.waitForElementVisible(findTestObject('Object Repository/login/Page_RevOne/span_HL7 Mapping_lpx-breadcrumb-item-text n_821826'), 30)
+// Click the tile
+WebUI.click(findTestObject('RecoordsReceivedinFinal/Page_RevOne/Tile_Records Received in final lable'))
+
+// Get count from tile
+String tileCount = WebUI.getText(findTestObject('RecoordsReceivedinFinal/Page_RevOne/Tile_RecordsReceivedinFinalCount'))
+System.out.println("Tile Count: " + tileCount)
+
+// Go to patient screen
+WebUI.click(findTestObject('RecoordsReceivedinFinal/Page_RevOne/PatientScreen'))
+
+// Get count from patient list
 WebUI.delay(30)
-Dashbaord = WebUI.getText(findTestObject('Object Repository/login/Page_RevOne/span_HL7 Mapping_lpx-breadcrumb-item-text n_821826'))
-assert Dashbaord.contains("Home")
-System.out.println(Dashbaord)
-WebUI.takeScreenshot()
-WebUI.takeScreenshot(RunConfiguration.getProjectDir() + '/Screenshots/FullPage.png')
-//WebUI.takeScreenshot(filePath)
+String patientScreenCount = WebUI.getText(findTestObject('RecoordsReceivedinFinal/Page_RevOne/PatientlistCount'))
+System.out.println("Patient Screen Count: " + patientScreenCount)
+

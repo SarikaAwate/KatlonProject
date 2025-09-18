@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Records Received in staging</name>
+   <name>RecordsInFinal</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>

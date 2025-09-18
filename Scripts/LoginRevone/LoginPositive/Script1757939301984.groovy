@@ -22,11 +22,9 @@ WebUI.openBrowser('')
 WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.maximizeWindow()
-
-WebUI.delay(5)
-
+WebUI.waitForElementVisible(findTestObject('login/Page_RevOne/Email'),10)
 WebUI.setText(findTestObject('login/Page_RevOne/Email'), Email)
-
+WebUI.waitForElementVisible(findTestObject('login/Page_RevOne/Password'),10)
 WebUI.setText(findTestObject('login/Page_RevOne/Password'), Password)
 
 WebUI.click(findTestObject('Object Repository/login/Page_RevOne/button_Password_togglePassword'))

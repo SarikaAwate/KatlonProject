@@ -60,6 +60,7 @@ class RevOneListener
         if (testCaseContext.getTestCaseStatus() == "FAILED") 
 			{
             // Take screenshot with TestCaseID as filename
+			WebUI.takeScreenshot(RunConfiguration.getProjectDir() + '/Screenshots/FullPage.png')	
             String filePath = "Screenshots/" + testCaseContext.getTestCaseId().replaceAll('/', '_') + ".png"
             WebUI.takeScreenshot(filePath)
             println "📸 Screenshot saved at: " + filePath
