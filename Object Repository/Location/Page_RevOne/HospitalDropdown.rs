@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>HospitalDropdown</name>
+   <tag></tag>
+   <elementGuidId>1c0f047d-3381-47fe-b6ad-1a68dcc5dd11</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>select.form-control.form-select.ng-touched.ng-dirty.ng-valid</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='lpx-wrapper']/div[2]/div[2]/app-add-hospital-location/form/div/div[2]/div/div/div/select</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=combobox >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>8b6e46a1-eddc-4ce8-b83d-a3514e893139</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>formcontrolname</name>
+      <type>Main</type>
+      <value>hospitalId</value>
+      <webElementGuid>35d0761a-85a2-41f6-94f2-ff4302ca1ce4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control form-select ng-touched ng-dirty ng-valid</value>
+      <webElementGuid>62cb9d90-cf2b-4bf3-ad7d-c5368b18403e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Baptist Health Madisonville  Central Health_S3  Community Hospital  CommunityHealthChoice  Deaconess  Epic Community Hospital  EPIC_FHIRSubscription  EpicHospitalSystem  EPICRevOne  FHIRHospital1  FHIRHospital2  FHIRHospital3  HL7_FHIRHospital  Parkview  Riverview  S3Bucket  Tes  Test  TestHospital1 </value>
+      <webElementGuid>e772b24c-495f-4d2a-b68c-df8bc0f447bc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;lpx-wrapper&quot;)/div[@class=&quot;lpx-content-container&quot;]/div[@class=&quot;lpx-content&quot;]/app-add-hospital-location[@class=&quot;ng-star-inserted&quot;]/form[@class=&quot;ng-invalid ng-touched ng-dirty&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-6 col-sm-6 col-lg-4&quot;]/div[@class=&quot;form-group postionlabel&quot;]/select[@class=&quot;form-control form-select ng-touched ng-dirty ng-valid&quot;]</value>
+      <webElementGuid>3be54c4e-5348-4d96-9934-6e132fdf6610</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='lpx-wrapper']/div[2]/div[2]/app-add-hospital-location/form/div/div[2]/div/div/div/select</value>
+      <webElementGuid>59761f3b-4373-4966-96ea-882b1d08ffbb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[1]/following::select[1]</value>
+      <webElementGuid>97de774e-d455-4a92-9246-3168415ac66d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[2]/preceding::select[1]</value>
+      <webElementGuid>00e292dc-272a-448d-b19d-94cda6761a2f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//select</value>
+      <webElementGuid>3dc388af-6a25-440e-a6ce-ee8093c1e524</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[(text() = ' Baptist Health Madisonville  Central Health_S3  Community Hospital  CommunityHealthChoice  Deaconess  Epic Community Hospital  EPIC_FHIRSubscription  EpicHospitalSystem  EPICRevOne  FHIRHospital1  FHIRHospital2  FHIRHospital3  HL7_FHIRHospital  Parkview  Riverview  S3Bucket  Tes  Test  TestHospital1 ' or . = ' Baptist Health Madisonville  Central Health_S3  Community Hospital  CommunityHealthChoice  Deaconess  Epic Community Hospital  EPIC_FHIRSubscription  EpicHospitalSystem  EPICRevOne  FHIRHospital1  FHIRHospital2  FHIRHospital3  HL7_FHIRHospital  Parkview  Riverview  S3Bucket  Tes  Test  TestHospital1 ')]</value>
+      <webElementGuid>7671daa3-26c7-46a0-b9ea-02e13ce25126</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

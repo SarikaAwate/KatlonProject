@@ -6,12 +6,11 @@
    <elementGuidId>8d7f1c87-553a-4ea1-a4ae-4607c8ce1dbd</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>/html[1]/body[1]/app-root[1]/abp-dynamic-layout[1]/abp-application-layout[1]/lpx-layout[1]/div[1]/div[2]/div[2]/app-home[1]/abp-page[1]/div[2]/div[1]/div[2]/div[1]/div[4]/div[1]/div[1]/h4[1]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='lpx-wrapper']/div[2]/div[2]/app-home/abp-page/div[2]/div/div[2]/div/div[4]/div/div/h4</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +28,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h4</value>
-      <webElementGuid>082e9385-b6c3-4b89-a8ff-c009be3a721f</webElementGuid>
+      <webElementGuid>348bdded-3a54-417e-80c3-78379a87ad9e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +36,7 @@
       <name>class</name>
       <type>Main</type>
       <value>fw-bold ng-star-inserted</value>
-      <webElementGuid>94d51ad7-9654-4039-a0df-1de6f85130c0</webElementGuid>
+      <webElementGuid>f9177b36-e783-427c-8855-33015538138e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +44,7 @@
       <name>text</name>
       <type>Main</type>
       <value>62537</value>
-      <webElementGuid>68f7cf34-b8f9-4d7e-b1e3-49ba1b9cf2bb</webElementGuid>
+      <webElementGuid>4ac9ad75-c8c1-4b65-b822-5bd78cfc49d7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +52,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;lpx-wrapper&quot;)/div[@class=&quot;lpx-content-container&quot;]/div[@class=&quot;lpx-content&quot;]/app-home[@class=&quot;ng-star-inserted&quot;]/abp-page[1]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;row g-3&quot;]/div[@class=&quot;col-md-3x ng-star-inserted&quot;]/div[@class=&quot;card text-center shadow-sm border-0 tile h-100 bouncy-tile bg-light-green&quot;]/div[@class=&quot;card-body&quot;]/h4[@class=&quot;fw-bold ng-star-inserted&quot;]</value>
-      <webElementGuid>8aefb85a-314b-44d9-a9ee-2242a3f18acf</webElementGuid>
+      <webElementGuid>44073b3f-1d44-4fae-8f26-c9663feeaa41</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +60,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='lpx-wrapper']/div[2]/div[2]/app-home/abp-page/div[2]/div/div[2]/div/div[4]/div/div/h4</value>
-      <webElementGuid>6312c3e2-6e0e-4f7d-9f11-31bbfb7cd715</webElementGuid>
+      <webElementGuid>8b51f32c-030e-4a58-983d-7b62e1591210</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +68,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Refresh'])[1]/following::h4[4]</value>
-      <webElementGuid>4dd48d60-ee09-429a-ba64-079249fad216</webElementGuid>
+      <webElementGuid>8c0f4cef-4724-4abd-98a9-5906e77d0c76</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +76,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Date'])[1]/following::h4[4]</value>
-      <webElementGuid>77cb24e8-f816-4212-a1d7-31475cf7aad8</webElementGuid>
+      <webElementGuid>3d6fad63-3df3-4046-8b9b-2c1faedb25fd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +84,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[2]/preceding::h4[12]</value>
-      <webElementGuid>8cec42af-8bc6-4207-b378-0ca65304dd68</webElementGuid>
+      <webElementGuid>0d1305f3-19af-4baa-b269-289a78e53256</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +92,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Apply'])[2]/preceding::h4[12]</value>
-      <webElementGuid>42de87b7-03af-4052-903d-d1c1da40764b</webElementGuid>
+      <webElementGuid>052dc870-8b76-41c0-91d5-34e754c2122e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +100,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='62537']/parent::*</value>
-      <webElementGuid>6a8752a0-dd5d-4f72-9f67-7cf46b47980a</webElementGuid>
+      <webElementGuid>c151f801-a106-4962-962e-f02d41943c73</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +108,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div/div/h4</value>
-      <webElementGuid>80d13465-80a8-4a30-bc08-2e12b9514cdf</webElementGuid>
+      <webElementGuid>d5a0193b-b0c1-442f-819e-b1926a1e0b7c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +116,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h4[(text() = '62537' or . = '62537')]</value>
-      <webElementGuid>f4bd3f5e-6739-44cc-8987-700931c0a789</webElementGuid>
+      <webElementGuid>c76e6c30-cea5-4fca-8509-20e148b01ce9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

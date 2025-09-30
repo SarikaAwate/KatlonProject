@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>LocationDropown</name>
+   <tag></tag>
+   <elementGuidId>f0f42d39-6ebd-499f-9f75-384ebba760e9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#hospitalLocationDropdown > div</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='hospitalLocationDropdown']/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;All Locations 41 &quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>8629f116-9d90-4492-b5e3-84d2c822d5bb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> All Locations </value>
+      <webElementGuid>2bf7d269-b40d-45a2-ac49-c9a9c83a40e8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;hospitalLocationDropdown&quot;)/div[1]</value>
+      <webElementGuid>0732804a-a271-4b45-9d3b-6076fe995a27</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//button[@id='hospitalLocationDropdown']/div</value>
+      <webElementGuid>97242b6b-889d-48cd-951c-76f0b22f929f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Location'])[2]/following::div[6]</value>
+      <webElementGuid>f87f81e3-48cf-4201-8346-459b5155ae03</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hospital Configuration'])[2]/following::div[6]</value>
+      <webElementGuid>a28ea837-42c2-4446-a8c1-beffbc261d64</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='All Locations'])[2]/preceding::div[2]</value>
+      <webElementGuid>5206ec66-089b-400a-b40f-9939e10e4974</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Baptist Health Madisonville'])[1]/preceding::div[3]</value>
+      <webElementGuid>f9aa2310-ddab-4c62-b553-5bf16979c5fc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='All Locations']/parent::*</value>
+      <webElementGuid>69a23646-95b8-4579-bc6f-c96c43bc1203</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button/div</value>
+      <webElementGuid>446ca360-4c85-4f29-8059-639c87cf66b0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' All Locations ' or . = ' All Locations ')]</value>
+      <webElementGuid>ba56dfc5-d137-4ce7-b4b1-abf319fc11df</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

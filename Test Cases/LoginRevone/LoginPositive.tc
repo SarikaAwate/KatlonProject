@@ -6,25 +6,16 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>1373cee3-4d7b-4956-afd1-83a5af9758a7</testCaseGuid>
-   <testDataLinks>
-      <combinationType>ONE</combinationType>
-      <id>6717f235-2b57-4e6f-83cf-3303cc8ffe1a</id>
-      <iterationEntity>
-         <iterationType>ALL</iterationType>
-         <value></value>
-      </iterationEntity>
-      <testDataId>Data Files/LoginPostiveandNegative</testDataId>
-   </testDataLinks>
    <variableLinks>
-      <testDataLinkId>6717f235-2b57-4e6f-83cf-3303cc8ffe1a</testDataLinkId>
-      <type>DATA_COLUMN</type>
-      <value>Email</value>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
       <variableId>289c4dc0-8576-414e-ac92-fa885222f30d</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>6717f235-2b57-4e6f-83cf-3303cc8ffe1a</testDataLinkId>
-      <type>DATA_COLUMN</type>
-      <value>Password</value>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
       <variableId>dc93bccf-ff54-41d2-b1fc-20d58e486948</variableId>
    </variableLinks>
    <variable>

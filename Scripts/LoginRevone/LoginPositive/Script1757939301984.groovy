@@ -22,7 +22,7 @@ WebUI.openBrowser('')
 WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.maximizeWindow()
-WebUI.waitForElementVisible(findTestObject('login/Page_RevOne/Email'),10)
+WebUI.waitForElementVisible(findTestObject('login/Page_RevOne/Email'),30)
 WebUI.setText(findTestObject('login/Page_RevOne/Email'), Email)
 WebUI.waitForElementVisible(findTestObject('login/Page_RevOne/Password'),10)
 WebUI.setText(findTestObject('login/Page_RevOne/Password'), Password)
@@ -45,8 +45,9 @@ if (WebUI.verifyElementPresent(errorMessageObj, 5, FailureHandling.OPTIONAL)) {
     assert true // Else check if dashboard element exists (Valid Login case)
     //(WebUI.verifyElementPresent(dashboardObj, 5, FailureHandling.OPTIONAL)) 
 } else {
-    WebUI.delay(30)
-
+   // WebUI.delay(30)
+	WebUI.waitForElementVisible(findTestObject('Object Repository/login/Page_RevOne/span_HL7 Mapping_lpx-breadcrumb-item-text n_821826'),45)
+	
     String dashboardText = WebUI.getText(dashboardObj)
 
     if (dashboardText.contains('Home')) {

@@ -18,17 +18,43 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 // Click the tile
-WebUI.click(findTestObject('RecoordsReceivedinFinal/Page_RevOne/Tile_Records Received in final lable'))
-
+//WebUI.waitForElementVisible(findTestObject('RecoordsReceivedinFinal/Page_RevOne/Tile_Records Received in final lable'), 20)
+//WebUI.click(findTestObject('RecoordsReceivedinFinal/Page_RevOne/Tile_Records Received in final lable'))
 // Get count from tile
+WebUI.waitForElementPresent(findTestObject('RecoordsReceivedinFinal/Page_RevOne/Tile_RecordsReceivedinFinalCount'), 20)
+
 String tileCount = WebUI.getText(findTestObject('RecoordsReceivedinFinal/Page_RevOne/Tile_RecordsReceivedinFinalCount'))
-System.out.println("Tile Count: " + tileCount)
+
+System.out.println('Tile Count: ' + tileCount)
 
 // Go to patient screen
+WebUI.waitForElementPresent(findTestObject('RecoordsReceivedinFinal/Page_RevOne/PatientScreen'), 30)
+
 WebUI.click(findTestObject('RecoordsReceivedinFinal/Page_RevOne/PatientScreen'))
 
 // Get count from patient list
-WebUI.delay(30)
+WebUI.waitForElementPresent(findTestObject('RecoordsReceivedinFinal/Page_RevOne/PatientlistCount'), 30)
+
 String patientScreenCount = WebUI.getText(findTestObject('RecoordsReceivedinFinal/Page_RevOne/PatientlistCount'))
-System.out.println("Patient Screen Count: " + patientScreenCount)
+
+//Display Count
+System.out.println('Patient Screen Count: ' + patientScreenCount)
+
+System.out.println('Tile Count: ' + tileCount)
+
+//Compare Count
+String cleanCount = patientScreenCount.replaceAll('[^0-9]', '' // keep only digits
+    )
+
+int patientScreenCount1 = Integer.parseInt(cleanCount)
+
+println('Patient Screen Count = ' + patientScreenCount1)
+
+System.out.println('Patient Screen Count: ' + patientScreenCount1)
+
+int TilesCount1 = Integer.parseInt(tileCount)
+
+System.out.println('Tile Count: ' + TilesCount1)
+
+assert patientScreenCount1 == TilesCount1
 
