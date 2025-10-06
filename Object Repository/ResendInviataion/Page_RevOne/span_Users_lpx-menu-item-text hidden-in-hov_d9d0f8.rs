@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Users_lpx-menu-item-text hidden-in-hov_d9d0f8</name>
+   <tag></tag>
+   <elementGuidId>5c194b4c-69e4-4ef4-b198-179111892762</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.lpx-menu-item-text.hidden-in-hover-trigger.ng-tns-c4125907324-29.ng-star-inserted</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='lpx-wrapper']/div/div/lpx-navbar/nav/lpx-navbar-routes/ul/li[5]/lpx-sub-navbar/ul/li/lpx-sub-navbar/ul/li[3]/lpx-sub-navbar/a/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Invite&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>8393ff3f-20a0-4578-805d-62548c23b335</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>lpx-menu-item-text hidden-in-hover-trigger ng-tns-c4125907324-29 ng-star-inserted</value>
+      <webElementGuid>2ebd758d-056b-4f99-ad23-1d5dd5be270b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Invite</value>
+      <webElementGuid>a2a388c7-8450-44f9-b5fa-f221254c5cb8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;lpx-wrapper&quot;)/div[@class=&quot;lpx-sidebar-container ng-star-inserted&quot;]/div[@class=&quot;lpx-sidebar&quot;]/lpx-navbar[@class=&quot;ng-star-inserted&quot;]/nav[@class=&quot;lpx-nav&quot;]/lpx-navbar-routes[@class=&quot;ng-star-inserted&quot;]/ul[@class=&quot;lpx-nav-menu&quot;]/li[@class=&quot;outer-menu-item ng-star-inserted&quot;]/lpx-sub-navbar[@class=&quot;ng-tns-c4125907324-21 ng-star-inserted&quot;]/ul[@class=&quot;lpx-inner-menu hidden-in-hover-trigger ng-tns-c4125907324-21 ng-star-inserted&quot;]/li[@class=&quot;lpx-inner-menu-item ng-tns-c4125907324-21 ng-star-inserted&quot;]/lpx-sub-navbar[@class=&quot;ng-tns-c4125907324-21 ng-tns-c4125907324-23 ng-star-inserted&quot;]/ul[@class=&quot;lpx-inner-menu hidden-in-hover-trigger ng-tns-c4125907324-23 ng-star-inserted&quot;]/li[@class=&quot;lpx-inner-menu-item ng-tns-c4125907324-23 ng-star-inserted&quot;]/lpx-sub-navbar[@class=&quot;ng-tns-c4125907324-23 ng-tns-c4125907324-29 ng-star-inserted&quot;]/a[@class=&quot;lpx-menu-item-link ng-tns-c4125907324-29 ng-star-inserted&quot;]/span[@class=&quot;lpx-menu-item-text hidden-in-hover-trigger ng-tns-c4125907324-29 ng-star-inserted&quot;]</value>
+      <webElementGuid>2f32ce1d-8d3e-4e8d-aefc-f568aa005dc3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='lpx-wrapper']/div/div/lpx-navbar/nav/lpx-navbar-routes/ul/li[5]/lpx-sub-navbar/ul/li/lpx-sub-navbar/ul/li[3]/lpx-sub-navbar/a/span</value>
+      <webElementGuid>27e6c297-d30b-4cf6-bd93-101cbe0de023</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Users'])[1]/following::span[1]</value>
+      <webElementGuid>9e213055-af0e-4472-9746-43298ccd47e1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Roles'])[1]/following::span[2]</value>
+      <webElementGuid>c547c237-238b-4468-8eb9-a434fbd73cf1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hospital Configuration'])[1]/preceding::span[1]</value>
+      <webElementGuid>f2c81b9d-83ba-4d6b-a256-59ffbfaef23d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hospital'])[1]/preceding::span[2]</value>
+      <webElementGuid>a696cf14-6435-4873-a4cb-58656e21b688</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Invite']/parent::*</value>
+      <webElementGuid>41463d7b-e41c-485e-9fed-7c28044ad703</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//lpx-sub-navbar/ul/li/lpx-sub-navbar/ul/li[3]/lpx-sub-navbar/a/span</value>
+      <webElementGuid>e8aa1b2c-efcf-423c-a0cb-6514b124a62b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Invite' or . = 'Invite')]</value>
+      <webElementGuid>c11b5d2a-cf9d-4278-8fde-96990bd74d0c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -6,36 +6,6 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>6633488d-7976-417a-b84e-6213697546da</testCaseGuid>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>43597c60-9e8e-4cf0-b000-e53144cc2e18</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>a4c336e1-8773-4f20-a27d-faf7ec20e0e6</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>94efa6c7-7db1-4261-9b2b-4a39aea0e754</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>20160649-b9b1-4268-8b66-3cfe85e874f4</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>d61badaf-a5e5-4ef3-9289-d72db291bbab</variableId>
-   </variableLinks>
    <variable>
       <defaultValue>'TestHospital1'</defaultValue>
       <description></description>

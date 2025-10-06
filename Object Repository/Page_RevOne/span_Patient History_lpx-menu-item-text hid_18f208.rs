@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Patient History_lpx-menu-item-text hid_18f208</name>
+   <tag></tag>
+   <elementGuidId>41aad65e-57df-4b3d-af9c-db244437db4e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.lpx-menu-item-text.hidden-in-hover-trigger.ng-tns-c4125907324-7.ng-star-inserted</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='lpx-wrapper']/div/div/lpx-navbar/nav/lpx-navbar-routes/ul/li[4]/lpx-sub-navbar/a/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>a >> internal:has-text=&quot;Reports&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>8c399779-9db8-40f4-a6be-ba5f47d64064</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>lpx-menu-item-text hidden-in-hover-trigger ng-tns-c4125907324-7 ng-star-inserted</value>
+      <webElementGuid>3f0bf9d1-a756-4573-a908-76e23496ce35</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Reports</value>
+      <webElementGuid>ad7dbef1-5d54-4d9b-9584-51abc8982f1d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;lpx-wrapper&quot;)/div[@class=&quot;lpx-sidebar-container ng-star-inserted&quot;]/div[@class=&quot;lpx-sidebar&quot;]/lpx-navbar[@class=&quot;ng-star-inserted&quot;]/nav[@class=&quot;lpx-nav&quot;]/lpx-navbar-routes[@class=&quot;ng-star-inserted&quot;]/ul[@class=&quot;lpx-nav-menu&quot;]/li[@class=&quot;outer-menu-item ng-star-inserted&quot;]/lpx-sub-navbar[@class=&quot;ng-tns-c4125907324-7 ng-star-inserted&quot;]/a[@class=&quot;lpx-menu-item-link ng-tns-c4125907324-7 ng-star-inserted&quot;]/span[@class=&quot;lpx-menu-item-text hidden-in-hover-trigger ng-tns-c4125907324-7 ng-star-inserted&quot;]</value>
+      <webElementGuid>14695d28-de90-4d44-9a2a-84d8feaf6a75</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='lpx-wrapper']/div/div/lpx-navbar/nav/lpx-navbar-routes/ul/li[4]/lpx-sub-navbar/a/span</value>
+      <webElementGuid>c384431f-2a47-4dc4-bebc-f8496038bffe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Patient History'])[1]/following::span[1]</value>
+      <webElementGuid>3fc68e5a-b2fa-4c07-bfb5-70063799c0c9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Patient'])[1]/following::span[2]</value>
+      <webElementGuid>448f4860-b03b-482c-839e-af8835ad403a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Last Record Transferred &amp; Received Logs'])[1]/preceding::span[1]</value>
+      <webElementGuid>2b5b0c67-c028-4276-a17b-c97469170698</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Records in Staging'])[1]/preceding::span[2]</value>
+      <webElementGuid>87099b2b-2929-465a-9499-47ce3808e97c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Reports']/parent::*</value>
+      <webElementGuid>0f93bf73-35c3-46d5-837f-c59300bda46d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[4]/lpx-sub-navbar/a/span</value>
+      <webElementGuid>b22c44fb-c044-4668-b7b9-7fbf93776324</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Reports' or . = 'Reports')]</value>
+      <webElementGuid>4c3b3ee3-90aa-4bdf-8089-a6105d1efdd9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

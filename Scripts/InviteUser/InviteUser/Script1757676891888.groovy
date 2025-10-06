@@ -35,8 +35,8 @@ WebUI.setText(findTestObject('InviteUser/InviteUser__email'), 'Abctest1@gmail.co
 
 WebUI.click(findTestObject('InviteUser/select__role'))
 
-WebUI.selectOptionByValue(findTestObject('InviteUser/select__role'), 'admin', false)
-
+//WebUI.selectOptionByValue(findTestObject('InviteUser/select__role'), 'admin', false)
+WebUI.selectOptionByIndex(findTestObject('InviteUser/select__role'), 2)
 WebUI.click(findTestObject('InviteUser/Page_RevOne/InviteUser_Button'))
 
 

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_abp-toast-message</name>
+   <tag></tag>
+   <elementGuidId>b4edfb4b-16e5-4b06-9980-c38408963417</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//p[(text() = 'Invitation is resent to the user' or . = 'Invitation is resent to the user')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value></value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>4bcaf47b-5033-4fc7-b357-ec72fbcea3f9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>abp-toast-message</value>
+      <webElementGuid>9cbd80cd-0456-4ac4-acaa-ee1585e0540f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Invitation is resent to the user</value>
+      <webElementGuid>f5432bbc-bc65-425b-ae8d-f42311b05973</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/abp-toast[@class=&quot;ng-tns-c2738070610-42 ng-star-inserted&quot;]/div[@class=&quot;abp-toast abp-toast-success&quot;]/div[@class=&quot;abp-toast-content&quot;]/p[@class=&quot;abp-toast-message&quot;]</value>
+      <webElementGuid>de4ef43e-dea8-404a-9966-f19c80f4b229</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Invitation is resent to the user' or . = 'Invitation is resent to the user')]</value>
+      <webElementGuid>9ee94d6a-01cc-4e8c-9eeb-5903efdc8eb0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

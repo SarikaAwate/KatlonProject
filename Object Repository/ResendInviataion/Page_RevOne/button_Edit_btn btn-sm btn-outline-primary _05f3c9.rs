@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Edit_btn btn-sm btn-outline-primary _05f3c9</name>
+   <tag></tag>
+   <elementGuidId>12d757ca-8d43-4bb4-ad6e-9cd632bf6a5a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-sm.btn-outline-primary.ms-1.ng-star-inserted</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[5]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=row[name=&quot;TestUser Test Abc@gmail.com admin 08/19/2025 Edit Resend&quot;i] >> internal:role=button >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>7766e18e-0b57-4e24-87ae-0c18a6a0f1d9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>0d7f6881-a291-4242-9649-42ab2a012fab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-sm btn-outline-primary ms-1 ng-star-inserted</value>
+      <webElementGuid>8f5d2eb5-ab6c-4c30-afe0-ad5492136b4e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Resend </value>
+      <webElementGuid>20d02c55-507c-4f8a-a3ca-b128c6d91913</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;lpx-wrapper&quot;)/div[@class=&quot;lpx-content-container&quot;]/div[@class=&quot;lpx-content&quot;]/app-email-invite[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;form-card&quot;]/div[@class=&quot;form-cardbody&quot;]/div[@class=&quot;card-body mt-2&quot;]/ngx-datatable[@class=&quot;ngx-datatable fixed-header scroll-vertical scroll-horz bordered material&quot;]/div[@class=&quot;visible&quot;]/datatable-body[@class=&quot;datatable-body&quot;]/datatable-selection[1]/datatable-scroller[@class=&quot;datatable-scroll ng-star-inserted&quot;]/datatable-row-wrapper[@class=&quot;datatable-row-wrapper ng-star-inserted&quot;]/datatable-body-row[@class=&quot;datatable-body-row datatable-row-even ng-star-inserted&quot;]/div[@class=&quot;datatable-row-center datatable-row-group ng-star-inserted&quot;]/datatable-body-cell[@class=&quot;datatable-body-cell sort-active ng-star-inserted&quot;]/div[@class=&quot;datatable-body-cell-label&quot;]/button[@class=&quot;btn btn-sm btn-outline-primary ms-1 ng-star-inserted&quot;]</value>
+      <webElementGuid>49856872-bf65-4360-b3f5-8077be52aad2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[5]</value>
+      <webElementGuid>3c665f1f-1f38-49fe-8a06-18f3dd59c98c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='lpx-wrapper']/div[2]/div[2]/app-email-invite/div/div[2]/div/ngx-datatable/div/datatable-body/datatable-selection/datatable-scroller/datatable-row-wrapper/datatable-body-row/div[2]/datatable-body-cell[6]/div/button[2]</value>
+      <webElementGuid>b78bb923-3015-450e-962b-093a9b674d9e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[1]/following::button[1]</value>
+      <webElementGuid>a3a56fa1-9096-47c5-91ad-67552c9c4c4c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='admin'])[4]/following::button[2]</value>
+      <webElementGuid>82e2fe08-30fc-468b-8e63-e399b90707b9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Test'])[4]/preceding::button[1]</value>
+      <webElementGuid>fca2bbe3-1c64-478d-9a26-9c958c619eb3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='User'])[1]/preceding::button[1]</value>
+      <webElementGuid>d7608bdc-a759-4ff4-b3d0-176e70c5f3df</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Resend']/parent::*</value>
+      <webElementGuid>8c89b07f-e8aa-489d-9f32-b00339071048</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//datatable-body-cell[6]/div/button[2]</value>
+      <webElementGuid>3d4ce8b5-6474-4e1d-9fe2-053666c5a4ff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = ' Resend ' or . = ' Resend ')]</value>
+      <webElementGuid>8a0c3c01-af5d-4f31-b3cb-5fb96de300c5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

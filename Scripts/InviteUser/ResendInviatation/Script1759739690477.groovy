@@ -16,12 +16,16 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-WebUI.waitForElementVisible(findTestObject('InviteUser/Administrator_Menu'), 30)
-WebUI.click(findTestObject('InviteUser/Administrator_Menu'))
-WebUI.waitForElementVisible(findTestObject('InviteUser/IdentityManagement_Menu'), 30)
-WebUI.click(findTestObject('InviteUser/IdentityManagement_Menu'))
-WebUI.waitForElementVisible(findTestObject('InviteUser/InviteUser_menu'), 30)
-WebUI.click(findTestObject('InviteUser/InviteUser_menu'))
+
+
+
+WebUI.click(findTestObject('Object Repository/Page_RevOne/span_Patient History_lpx-menu-item-text hid_18f208'))
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_RevOne/span_User Access Logs_lpx-menu-item-text hi_e1ede2'), 20)
+WebUI.click(findTestObject('Object Repository/Page_RevOne/span_User Access Logs_lpx-menu-item-text hi_e1ede2'))
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_RevOne/span_Administration_lpx-menu-item-text hidd_7477db'), 20)
+WebUI.click(findTestObject('Object Repository/Page_RevOne/span_Administration_lpx-menu-item-text hidd_7477db'))
 
 WebUI.waitForElementVisible(findTestObject('Object Repository/Page_RevOne/span_Users_lpx-menu-item-text hidden-in-hov_d9d0f8'), 20)
 WebUI.click(findTestObject('Object Repository/Page_RevOne/span_Users_lpx-menu-item-text hidden-in-hov_d9d0f8'))
@@ -34,4 +38,3 @@ WebUI.click(findTestObject('Object Repository/Page_RevOne/button_Edit_btn btn-sm
 
 WebUI.waitForElementVisible(findTestObject('Object Repository/Page_RevOne/p_abp-toast-message'), 20)
 WebUI.verifyElementText(findTestObject('Object Repository/Page_RevOne/p_abp-toast-message'), 'Invitation is resent to the user')
-

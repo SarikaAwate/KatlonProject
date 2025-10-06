@@ -72,7 +72,7 @@ WebUI.setText(findTestObject('Location/Page_RevOne/Abbreviations (comma-separate
 
 WebUI.click(findTestObject('Location/Page_RevOne/LocationDropown'))
 
-WebUI.selectOptionByLabel(findTestObject('Location/Page_RevOne/LocationDropdownCheckbox'), 'HospitalName', false)
+WebUI.selectOptionByLabel(findTestObject('Location/Page_RevOne/LocationDropdownCheckbox'), HospitalName, false)
 
 WebUI.click(findTestObject('Location/Page_RevOne/LocationDropwon_Apply_Button'))
 

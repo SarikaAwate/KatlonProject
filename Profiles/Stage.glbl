@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalVariableEntities>
    <description></description>
-   <name>default</name>
+   <name>Stage</name>
    <tag></tag>
-   <defaultProfile>true</defaultProfile>
+   <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
-      <description>https://hospital-connect-stage.revone.io</description>
-      <initValue>'https://hospital-connect-dev.revone.io/'</initValue>
+      <description></description>
+      <initValue>'https://hospital-connect-stage.revone.io'</initValue>
       <name>URL</name>
       <protected>false</protected>
       <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>https://hospital-connect-dev.revone.io/</description>
+      <description></description>
       <initValue>'admin'</initValue>
       <name>Username</name>
       <protected>false</protected>
